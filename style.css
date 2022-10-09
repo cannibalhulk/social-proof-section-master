@@ -6,20 +6,387 @@
   color: hsl(228, 45%, 44%);
 }
 
+@media screen and (min-width:1440px) {
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 
-@media screen and (min-width:376) and (max-width:1440px) {
   body{
     margin: 0;
     font-size: 15px;
     font-family: 'League Spartan', sans-serif;
+    background-color: hsl(0, 0, 100%);
+  }
+
+  main{
+    background-image:
+    url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover contain;
+    background-position: left top, right bottom;
+    padding: 130px 250px;
+    
+  }
+
+  .sec1-title{
+    width: 460px;
+  }
+
+  .sec1-title p{
+    width:500px;
+    font-size: 20px;
+    line-height: 170%;
+    color: hsl(303, 10%, 53%);
+  }
+
+  .sec1-title h1{
+    font-size: 60px;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .section-1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec1-rating{
+    margin-top: 100px;
+    margin-right: 120px;
+  }
+
+  .sec1-rt-box:nth-child(2){
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sec1-rt-box:last-child{
+    margin-left: 120px;
+  }
+
+  .sec1-rt-box{
+    width:410px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec1-rt-box-star{
+    padding:16px 27px;
+  }
+
+  .sec1-rt-box h5{
+    font-size: 15px;
+    margin-top: 16px;
+    margin-right: 40px;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .section-2{
+    padding-top: 60px;
+    display: flex;
+  }
+
+  .testimonials{
+    padding:40px 40px;
+    height:200px;
+    width:420px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+  }
+
+  .testimonials:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+  }
+
+  .testimonials:last-child{
+    margin-top: 60px;
+  }
+
+  .tmnl-title{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+    /* burdan davam et */
+  .tmnl-title img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .tmnl-title .reviewer{
+    margin-left: 7%;
+    margin-top: -13px;
+  }
+
+  .tmnl-title .reviewer h3{
+    color: hsl(300, 24%, 96%);
+
+  }
+
+  .tmnl-title .reviewer p{
+    color: hsl(333, 80%, 67%);
+    margin-top: -12px;
+    font-size: 17px;
+  }
+  .tmnl-content{
+    color: hsl(300, 24%, 96%);
+    font-size: 18px;
+    margin-top: 12px;
+    line-height: 150%;
   }
 }
 
-@media screen and (min-width:375px){
+@media screen and (min-width:671px) and (max-width:1439px) {
   body{
     margin: 0;
     font-size: 15px;
     font-family: 'League Spartan', sans-serif;
+    background-color: hsl(0, 0, 100%);
   }
+
+  main{
+    padding: 9% 5%;
+    background-image:
+    url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 30% contain;
+    background-position: left top, right bottom;
+  }
+
+  .sec1-title{
+    max-width: 300px;
+  }
+
+  .sec1-title p{
+    width: 80%;
+    font-size: 1.5em;
+    line-height: 140%;
+    color: hsl(303, 10%, 53%);
+  }
+
+
+  .sec1-title h1{
+    font-size: 3rem;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .section-1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec1-rating{
+    margin-top: 95px;
+  }
+
+  .sec1-rt-box:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sec1-rt-box{
+    width:410px;
+    min-height:6%;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec1-rt-box-star{
+    padding:16px 20px;
+  }
+
+  .sec1-rt-box h5{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 40px;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .section-2{
+    padding-top: 60px;
+    display: flex;
+  }
+
+  .testimonials{
+    padding:40px 40px;
+    max-height: 50%;
+    width:50%;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+  }
+
+  .testimonials:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .tmnl-title{
+    display: flex;
+  }
+
+
+    /* burdan davam et */
+  .tmnl-title img{
+    max-width: 50px;
+    min-width:45px;
+    min-height: 15%;
+    max-height: 50px;
+    border-radius: 50%;
+  }
+
+  .tmnl-title .reviewer{
+    margin-left: 7%;
+    margin-top: -13px;
+  }
+
+  .tmnl-title .reviewer h3{
+    color: hsl(300, 24%, 96%);
+
+  }
+
+  .tmnl-title .reviewer p{
+    color: hsl(333, 80%, 67%);
+    margin-top: -12px;
+    font-size: 17px;
+  }
+  .tmnl-content{
+    color: hsl(300, 24%, 96%);
+    font-size: 18px;
+    margin-top: 12px;
+  }
+}
+
+@media (min-width:375px) and (max-width:670px){
+  body{
+    margin: 0;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: hsl(0, 0, 100%);
+  }
+
+  main{
+    padding-top: 70px;
+    background-image:
+    url(/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left top, right bottom;
+    
+  }
+
+  .sec1-title h1{
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .sec1-title p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 18px;
+    line-height: 140%;
+    color: hsl(303, 10%, 53%);
+  }
+
+  .sec1-rating{
+    margin-top: 50px;
+  }
+
+  .sec1-rt-box:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sec1-rt-box{
+    margin: 0 auto;
+    max-width: 90%;
+    height:80px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    
+  }
+
+  .sec1-rt-box-star{
+    padding-top:20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .sec1-rt-box-star img{
+    margin-left: 5px;
+  }
+
+  .sec1-rt-box h5{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .section-2{
+    padding-top: 60px;
+  }
+
+  .testimonials{
+    margin: 0 auto;
+    height: 80%;
+    max-width: 80%;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+  }
+
+  .testimonials:nth-child(2){
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .tmnl-title{
+    display: flex;
+  }
+
+
+    /* burdan davam et */
+  .tmnl-title img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .tmnl-title .reviewer{
+    margin-left: 7%;
+    margin-top: -13px;
+  }
+
+  .tmnl-title .reviewer h3{
+    color: hsl(300, 24%, 96%);
+
+  }
+
+  .tmnl-title .reviewer p{
+    color: hsl(333, 80%, 67%);
+    margin-top: -12px;
+    font-size: 17px;
+  }
+  .tmnl-content{
+    color: hsl(300, 24%, 96%);
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  
 }
